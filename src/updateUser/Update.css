@@ -1,0 +1,69 @@
+.adduser {
+  width: 25%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.8);
+}
+.adduserform .inputgroup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.adduserform .inputgroup label {
+  margin-top: 5px;
+}
+.adduserform .inputgroup input {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.adduserform .inputgroup button {
+  margin-top: 10px;
+}
+.adduser h3 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: darkcyan;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 1076px) {
+  .adduser {
+    width: 40%;
+    padding: 35px;
+  }
+}
+@media (max-width: 776px) {
+  .adduser {
+    width: 55%;
+    padding: 30px;
+  }
+}
+@media (max-width: 554px) {
+  .adduser {
+    width: 70%;
+    padding: 25px;
+  }
+  .adduser h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 323) {
+  .adduser {
+    width: 80%;
+    padding: 20px;
+  }
+  .adduser h3 {
+    font-size: 15px;
+  }
+  ::placeholder {
+    font-size: 9px;
+  }
+}

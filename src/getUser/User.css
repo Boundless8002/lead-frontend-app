@@ -1,0 +1,93 @@
+.userTable {
+  width: 60%;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+}
+.search-sort {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+.search-sort input {
+  width: 600px;
+  height: 35px;
+  border: 1px solid black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  background-color: #eeeeee;
+  padding-left: 10px;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.search-sort button {
+  width: 120px;
+  background-color: blue;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.userTable table {
+  width: 100%;
+  margin-top: 30px;
+}
+.userTable table thead th {
+  background-color: darkolivegreen;
+  color: white;
+  text-align: center;
+}
+.userTable table tbody td {
+  text-align: center;
+  padding: 15px;
+  vertical-align: center;
+}
+.userTable table tbody td i {
+  margin-left: 10px;
+}
+.userTable table tbody td .edit {
+  font-size: 20px;
+  color: rgb(33, 30, 212);
+}
+.userTable table tbody td .deleteOption {
+  color: red;
+  font-size: 20px;
+}
+
+@media (max-width: 920px) {
+  .userTable {
+    width: 80%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 665px) {
+  .userTable thead {
+    width: 100%;
+    /* padding: 5px;
+    overflow: scroll; */
+    /* display: none; */
+  }
+  .userTable tr,
+  td,
+  th {
+    display: block;
+    width: 100%;
+  }
+}
